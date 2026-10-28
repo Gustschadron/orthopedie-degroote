@@ -1,8 +1,4 @@
 {
-  "site": {
-    "title": "Christophe De Groote — Technische orthopedie, Zottegem",
-    "description": "Orthesen, braces, korsetten, prothesen, steunzolen, bandagisterie en mobiliteit. Christophe De Groote, orthopedisch technicus in Zottegem."
-  },
   "contact": {
     "name": "Christophe De Groote",
     "phone": "0470 68 50 62",
@@ -10,14 +6,9 @@
     "street": "Laurens De Metsstraat 24/1",
     "city": "9620 Zottegem"
   },
-  "topbar": { "note": "Enkel op afspraak" },
-  "hero": {
-    "title": "Technische orthopedie met een persoonlijke aanpak.",
-    "lead": "Je vindt me voornamelijk in ziekenhuizen en revalidatiecentra maar op afspraak maak ik graag tijd voor jou in Zottegem.",
-    "callLabel": "Bel voor een afspraak",
-    "mailLabel": "Stuur een mail",
-    "badgeTitle": "25 jaar ervaring",
-    "badgeText": "Certified orthesist & prothesist"
+  "site": {
+    "title": "test De Groote — Technische orthopedie, Zottegem",
+    "description": "Orthesen, braces, korsetten, prothesen, steunzolen, bandagisterie en mobiliteit. Christophe De Groote, orthopedisch technicus in Zottegem."
   },
   "about": {
     "initials": "CDG",
@@ -30,37 +21,78 @@
       "Je vindt me voornamelijk in ziekenhuizen en revalidatiecentra, maar op afspraak maak ik graag tijd voor jou in Zottegem."
     ]
   },
-  "services": {
-    "title": "Diensten",
-    "intro": "Zowel prefab als maatwerk, telkens met de beste oplossing voor jouw situatie als uitgangspunt.",
-    "items": [
-      { "title": "Orthesen en braces", "text": "Voor correctie en ondersteuning van vinger, hand, pols, elleboog, schouder, schedel, heup, knie, enkel en voet." },
-      { "title": "Korsetten", "text": "Bij rugklachten door artrose, osteoporose of hernia's en bij problemen met de stabiliteit van de ruggenwervels." },
-      { "title": "Prothesen", "text": "We zoeken samen de beste oplossing: veilig, esthetisch en met een optimale bewegingsvrijheid." },
-      { "title": "Steunzolen", "text": "Correctie en ondersteuning voor kinderen en volwassenen, op maat gemaakt in het eigen atelier." },
-      { "title": "Bandagisterie", "text": "Bandages om het lichaam te ondersteunen en corrigeren: steunkousen, armkousen, breukbanden en buikgordels." },
-      { "title": "Mobiliteit", "text": "Manuele en elektrische rolstoelen, high-tech sportrolstoelen, fietsen en handbikes, loophulpmiddelen en scooters." }
-    ]
-  },
   "refund": {
     "title": "Tussenkomst met voorschrift",
     "intro": "Klik op een onderwerp om te zien wanneer je recht hebt op tussenkomst.",
     "items": [
-      { "title": "Steunzolen", "paragraphs": [
-        "Bij steunzolen voorgeschreven door een specialist (heelkunde, orthopedist, fysische geneeskunde en revalidatie, reumatologie, pediatrie, neurologie, neuropsychiatrie) is een gedeeltelijke tussenkomst mogelijk.",
-        "Bij een eerste aflevering is een voorschrift 2 maanden geldig, bij een hernieuwing 6 maanden. Bij -18 is er jaarlijks hernieuwing mogelijk, om de twee jaar bij +18."
-      ] },
-      { "title": "Bandages", "paragraphs": [
-        "Voor een armkous/handschoen of medische compressiekous voor lymfoedeem, voorgeschreven door een specialist (o.a. heelkunde, inwendige geneeskunde, geriatrie, fysische geneeskunde en revalidatie, oncologie), is een gedeeltelijke of volledige tussenkomst mogelijk.",
-        "Een breukband, lumbostaat, buikgordel of borstprothese mag worden voorgeschreven door elke behandelende geneesheer, ook je huisarts.",
-        "Medische compressiekousen bij chronische veneuze aandoeningen worden enkel terugbetaald indien je huisarts klasse 3 of 4 noodzakelijk acht.",
-        "Een voorschrift is 2 maanden geldig bij een eerste aflevering en 6 maanden bij een hernieuwing."
-      ] },
-      { "title": "Orthesen", "paragraphs": [
-        "Een orthese voorgeschreven door een geneesheer-specialist in orthopedie, fysische geneeskunde en revalidatie, pediatrie, reumatologie, neurologie of chirurgie komt in aanmerking voor gedeeltelijke of volledige tussenkomst.",
-        "Een voorschrift is 2 maanden geldig bij een eerste aflevering."
-      ] }
+      {
+        "title": "Steunzolen",
+        "paragraphs": [
+          "Bij steunzolen voorgeschreven door een specialist (heelkunde, orthopedist, fysische geneeskunde en revalidatie, reumatologie, pediatrie, neurologie, neuropsychiatrie) is een gedeeltelijke tussenkomst mogelijk.",
+          "Bij een eerste aflevering is een voorschrift 2 maanden geldig, bij een hernieuwing 6 maanden. Bij -18 is er jaarlijks hernieuwing mogelijk, om de twee jaar bij +18."
+        ]
+      },
+      {
+        "title": "Bandages",
+        "paragraphs": [
+          "Voor een armkous/handschoen of medische compressiekous voor lymfoedeem, voorgeschreven door een specialist (o.a. heelkunde, inwendige geneeskunde, geriatrie, fysische geneeskunde en revalidatie, oncologie), is een gedeeltelijke of volledige tussenkomst mogelijk.",
+          "Een breukband, lumbostaat, buikgordel of borstprothese mag worden voorgeschreven door elke behandelende geneesheer, ook je huisarts.",
+          "Medische compressiekousen bij chronische veneuze aandoeningen worden enkel terugbetaald indien je huisarts klasse 3 of 4 noodzakelijk acht.",
+          "Een voorschrift is 2 maanden geldig bij een eerste aflevering en 6 maanden bij een hernieuwing."
+        ]
+      },
+      {
+        "title": "Orthesen",
+        "paragraphs": [
+          "Een orthese voorgeschreven door een geneesheer-specialist in orthopedie, fysische geneeskunde en revalidatie, pediatrie, reumatologie, neurologie of chirurgie komt in aanmerking voor gedeeltelijke of volledige tussenkomst.",
+          "Een voorschrift is 2 maanden geldig bij een eerste aflevering."
+        ]
+      }
     ]
+  },
+  "hero": {
+    "title": "Technische orthopedie met een persoonlijke aanpak.",
+    "lead": "Je vindt me voornamelijk in ziekenhuizen en revalidatiecentra maar op afspraak maak ik graag tijd voor jou in Zottegem.",
+    "callLabel": "Bel voor een afspraak",
+    "mailLabel": "Stuur een mail",
+    "badgeTitle": "25 jaar ervaring",
+    "badgeText": "Certified orthesist & prothesist"
+  },
+  "footer": {
+    "note": "Demoversie"
+  },
+  "services": {
+    "title": "Diensten",
+    "intro": "Zowel prefab als maatwerk, telkens met de beste oplossing voor jouw situatie als uitgangspunt.",
+    "items": [
+      {
+        "title": "Orthesen en braces",
+        "text": "Voor correctie en ondersteuning van vinger, hand, pols, elleboog, schouder, schedel, heup, knie, enkel en voet."
+      },
+      {
+        "title": "Korsetten",
+        "text": "Bij rugklachten door artrose, osteoporose of hernia's en bij problemen met de stabiliteit van de ruggenwervels."
+      },
+      {
+        "title": "Prothesen",
+        "text": "We zoeken samen de beste oplossing: veilig, esthetisch en met een optimale bewegingsvrijheid."
+      },
+      {
+        "title": "Steunzolen",
+        "text": "Correctie en ondersteuning voor kinderen en volwassenen, op maat gemaakt in het eigen atelier."
+      },
+      {
+        "title": "Bandagisterie",
+        "text": "Bandages om het lichaam te ondersteunen en corrigeren: steunkousen, armkousen, breukbanden en buikgordels."
+      },
+      {
+        "title": "Mobiliteit",
+        "text": "Manuele en elektrische rolstoelen, high-tech sportrolstoelen, fietsen en handbikes, loophulpmiddelen en scooters."
+      }
+    ]
+  },
+  "topbar": {
+    "note": "Enkel op afspraak"
   },
   "appointment": {
     "title": "Over je afspraak",
@@ -69,6 +101,5 @@
       "Kan je niet komen? Verwittig me dan op voorhand.",
       "Breng je voorschrift mee, indien je er een hebt."
     ]
-  },
-  "footer": { "note": "Demoversie" }
+  }
 }

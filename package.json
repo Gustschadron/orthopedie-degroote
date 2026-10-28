@@ -1,0 +1,7 @@
+{
+  "name": "orthopedie-degroote",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "decap-cms": "^3.0.0" }
+}

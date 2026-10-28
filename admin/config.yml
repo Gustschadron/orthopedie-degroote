@@ -1,0 +1,113 @@
+backend:
+  name: github
+  repo: JOUW-GITHUB-NAAM/orthopedie-degroote   # <- aanpassen
+  branch: main
+  base_url: https://JOUW-DOMEIN.be              # <- aanpassen (zelfde domein als de site)
+  auth_endpoint: api/auth
+
+publish_mode: simple        # zet op "editorial_workflow" als jij wijzigingen van de klant eerst wil goedkeuren
+locale: nl
+media_folder: static/uploads
+public_folder: /uploads
+
+collections:
+  - name: website
+    label: Website
+    files:
+      - name: site
+        label: Alle teksten en foto's
+        file: content/site.json
+        format: json
+        fields:
+          - label: Zoekmachine
+            name: site
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titel (tabblad en Google), name: title, widget: string }
+              - { label: Beschrijving (Google), name: description, widget: text }
+          - label: Contactgegevens
+            name: contact
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Naam, name: name, widget: string }
+              - { label: Telefoon, name: phone, widget: string, hint: "Formaat: 0470 68 50 62" }
+              - { label: E-mail, name: email, widget: string }
+              - { label: Straat en nummer, name: street, widget: string }
+              - { label: Postcode en gemeente, name: city, widget: string }
+          - label: Balk onder het menu
+            name: topbar
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Tekst rechts, name: note, widget: string }
+          - label: Bovenaan (hero)
+            name: hero
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Inleiding, name: lead, widget: text }
+              - { label: Knop bellen, name: callLabel, widget: string }
+              - { label: Knop mail, name: mailLabel, widget: string }
+              - { label: Blok - titel, name: badgeTitle, widget: string }
+              - { label: Blok - tekst, name: badgeText, widget: string }
+          - label: Over mij
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Initialen (als er geen foto is), name: initials, widget: string }
+              - { label: Foto, name: photo, widget: image, required: false, choose_url: false }
+              - { label: Functie, name: role, widget: string }
+              - { label: Naam, name: name, widget: string }
+              - label: Alinea's
+                name: paragraphs
+                widget: list
+                field: { label: Tekst, name: text, widget: text }
+          - label: Diensten
+            name: services
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Inleiding, name: intro, widget: text }
+              - label: Diensten
+                name: items
+                widget: list
+                fields:
+                  - { label: Naam, name: title, widget: string }
+                  - { label: Uitleg, name: text, widget: text }
+          - label: Terugbetaling
+            name: refund
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Inleiding, name: intro, widget: text }
+              - label: Onderwerpen
+                name: items
+                widget: list
+                fields:
+                  - { label: Onderwerp, name: title, widget: string }
+                  - label: Alinea's
+                    name: paragraphs
+                    widget: list
+                    field: { label: Tekst, name: text, widget: text }
+          - label: Over je afspraak
+            name: appointment
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Punten
+                name: items
+                widget: list
+                field: { label: Tekst, name: text, widget: text }
+          - label: Voetregel
+            name: footer
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Extra tekst (leeg laten = niets tonen), name: note, widget: string, required: false }

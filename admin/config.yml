@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: JOUW-GITHUB-NAAM/orthopedie-degroote   # <- aanpassen
+  repo: Gustschadron/orthopedie-degroote   # <- aanpassen
   branch: main
-  base_url: https://JOUW-DOMEIN.be              # <- aanpassen (zelfde domein als de site)
+  base_url: https://orthopedie-degroote.gustscd.workers.dev/             # <- aanpassen (zelfde domein als de site)
   auth_endpoint: api/auth
 
 publish_mode: simple        # zet op "editorial_workflow" als jij wijzigingen van de klant eerst wil goedkeuren
